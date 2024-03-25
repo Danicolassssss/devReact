@@ -6,11 +6,11 @@ import { FlexDemo } from "./components/FlexDemo/FlexDemo";
 
 export default function App() {
   return (
-    <>    
+    <View>    
       <Text style={s.text}>Hello World</Text>
       <Text style={s.text}>Hello World</Text>
       <Text style={s.text}>Hello World</Text>
-    </>
+    </View>
 
   );
 }
