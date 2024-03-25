@@ -6,12 +6,12 @@ import { FlexDemo } from "./components/FlexDemo/FlexDemo";
 
 export default function App() {
   return (
-    <SafeAreaProvider>
-      <SafeAreaView style={{backgroundColor:"red", flex:1}}>
-        <FlexDemo/>
-      </SafeAreaView>
-    </SafeAreaProvider>
-    
+    <>    
+      <Text style={s.text}>Hello World</Text>
+      <Text style={s.text}>Hello World</Text>
+      <Text style={s.text}>Hello World</Text>
+    </>
+
   );
 }
 
